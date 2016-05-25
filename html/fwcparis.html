@@ -1,0 +1,91 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>Frank Walley Construction | General Contractor</title>
+		<meta charset="utf-8">
+		<link type="text/css" rel="stylesheet" href="/Users/laurawalley/Desktop/Frank-Walley-Construction/css/fwcmain.css">
+		<link href='https://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
+		<script src="http://www.google.com/jsapi" type="text/javascript"></script>
+ 	<script type="text/javascript">google.load("jquery", "1.3.2");</script>
+		<script type="text/javascript">
+jQuery(document).ready(function() {
+jQuery(".parisslideshow > img:gt(0)").hide();
+
+	jQuery("#next").click(function() {
+		jQuery(".parisslideshow > img:first")
+			.fadeOut(1000)
+			.next()
+			.fadeIn(1000)
+			.end()
+			.appendTo(".parisslideshow");
+});
+	jQuery("#previous").click(function() {
+		jQuery(".parisslideshow > img:first")
+			.fadeOut();
+		jQuery(".parisslideshow > img:last")
+			.prependTo(".parisslideshow")
+			.fadeOut();
+		jQuery(".parisslideshow > img:first")
+			.fadeIn();
+});
+});
+</script>
+	</head>
+	<body id="paris">
+		<header>
+		<div class=logo">
+			<a href="/Users/laurawalley/Desktop/Frank-Walley-Construction/html/fwcindex.html"><img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/images/fwc-logo.png"></a>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="/Users/laurawalley/Desktop/Frank-Walley-Construction/html/fwcindex.html">Home</a></li>
+				<li><a href="/Users/laurawalley/Desktop/Frank-Walley-Construction/html/fwcprojects.html">Projects</a></li>
+				<li><a href="/Users/laurawalley/Desktop/Frank-Walley-Construction/html/fwccontact.html">Contact</a></li>
+			</ul>
+		</nav>
+		</header>
+			<div id="pariswrapper">
+				<div class="parisslideshow">
+					<img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/images/paris/paris-ext.jpg">
+					<img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/images/paris/paris-kitchen.jpg">
+					<img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/images/paris/paris-kitchen2.jpg">
+					<img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/images/paris/paris-living.jpg">
+					<img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/images/paris/paris-living-room.jpg">
+					<img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/images/paris/paris-dining.jpg">
+					<img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/images/paris/paris-bedroom.jpg">
+					<img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/images/paris/paris-bed2.jpg">
+					<img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/images/paris/paris-bed3.jpg">
+					<img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/images/paris/paris-bed4.jpg">
+					<img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/images/paris/paris-bath.jpg">
+					<img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/images/paris/paris-bath2.jpg">
+					<img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/images/paris/paris-bath3.jpg">
+					<img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/images/paris/paris-hall.jpg">
+					<img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/images/paris/paris-office.jpg">
+					<img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/images/paris/paris-den.jpg">
+					<img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/images/paris/paris-den2.jpg">
+					<img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/images/paris/paris-backyard.jpg">
+				</div>
+			</div>
+			<p class="arrows" id="previous"><</p>
+			<p class="arrows" id="next">></p>
+			<div class="parisinfo">
+				<div class="headerinfo">
+					<h2>626 Paris Street</h2>
+					<h2>San Francisco, CA 94112</h2>
+				</div>
+					<ul>
+						<li>2013 new construction</li>
+						<li>4BD/3.5BA 2,590 sq. ft 3-level luxury view home in the Excelsior neighborhood</li>
+						<li>Open floor plan paired with tall ceilings and designer finishes</li>
+						<li>Attached deck overlooking newly landscaped backyard</li>
+						<li>Panoramic city views of Twin Peaks, Mount Davidson, and more!</li>
+						<li>Large master suite with walk-in closet, and en-suite bath</li>
+						<li>Sizable bedrooms with ample closet space</li>
+						<Plenty of room for additional garage storage</li>
+					</ul>
+			</div>
+		<div class="footer">
+			<p>&copy Laura Walley 2016</p>
+		</div>
+	</body>
+</html>

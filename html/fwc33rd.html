@@ -1,0 +1,93 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>Frank Walley Construction | General Contractor</title>
+		<meta charset="utf-8">
+		<link type="text/css" rel="stylesheet" href="/Users/laurawalley/Desktop/Frank-Walley-Construction/css/fwcmain.css">
+		<link href='https://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
+		<script src="http://www.google.com/jsapi" type="text/javascript"></script>
+ 	<script type="text/javascript">google.load("jquery", "1.3.2");</script>
+		<script type="text/javascript">
+jQuery(document).ready(function() {
+jQuery(".thirtyslideshow > img:gt(0)").hide();
+
+	jQuery("#next").click(function() {
+		jQuery(".thirtyslideshow > img:first")
+			.fadeOut(1000)
+			.next()
+			.fadeIn(1000)
+			.end()
+			.appendTo(".thirtyslideshow");
+});
+	jQuery("#previous").click(function() {
+		jQuery(".thirtyslideshow > img:first")
+			.fadeOut();
+		jQuery(".thirtyslideshow > img:last")
+			.prependTo(".33rdslideshow")
+			.fadeOut();
+		jQuery(".thirtyslideshow > img:first")
+			.fadeIn();
+});
+});
+</script>
+	</head>
+	<body id="thirty">
+		<header>
+		<div class=logo">
+			<a href="/Users/laurawalley/Desktop/Frank-Walley-Construction/html/fwcindex.html"><img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/images/fwc-logo.png"></a>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="/Users/laurawalley/Desktop/Frank-Walley-Construction/html/fwcindex.html">Home</a></li>
+				<li><a href="/Users/laurawalley/Desktop/Frank-Walley-Construction/html/fwcprojects.html">Projects</a></li>
+				<li><a href="/Users/laurawalley/Desktop/Frank-Walley-Construction/html/fwccontact.html">Contact</a></li>
+			</ul>
+		</nav>
+		</header>
+			<div id="thirtywrapper">
+				<div class="thirtyslideshow">
+					<img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/images/33rd/33rd-ave-ext.jpg">
+					<img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/images/33rd/33rd-ave-entry.jpg">
+					<img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/images/33rd/33rd-ave-kitchen.jpg">
+					<img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/images/33rd/33rd-ave-kitchen2.jpg">
+					<img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/images/33rd/33rd-ave-kitchen3.jpg">
+					<img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/images/33rd/33rd-ave-kitchen4.jpg">
+					<img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/images/33rd/33rd-ave-dining.jpg">
+					<img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/images/33rd/33rd-ave-living2.jpg">
+					<img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/images/33rd/33rd-ave-living.jpg">
+					<img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/images/33rd/33rd-ave-bath.jpg">
+					<img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/images/33rd/33rd-ave-bed.jpg">
+					<img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/images/33rd/33rd-ave-bed2.jpg">
+					<img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/images/33rd/33rd-ave-bed3.jpg">
+					<img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/images/33rd/33rd-ave-bed4.jpg">
+					<img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/images/33rd/33rd-ave-bath2.jpg">
+					<img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/images/33rd/33rd-ave-den.jpg">
+					<img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/images/33rd/33rd-ave-den2.jpg">
+					<img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/images/33rd/33rd-ave-bar.jpg">
+					<img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/images/33rd/33rd-ave-backyard.jpg">
+				</div>
+			</div>
+			<p class="arrows" id="previous"><</p>
+			<p class="arrows" id="next">></p>
+			<div class="thirtyinfo">
+				<div class="headerinfo">
+					<h2>550 33rd Ave</h2>
+					<h2>San Francisco, CA 94121</h2>
+				</div>
+					<ul>
+						<li>2015 down to the studs remodel</li>
+						<li>4BD/4BA 2,750 sq. ft in the Outer Richmond neighborhood</li>	
+						<li>Two master suites!</li>
+						<li>Chef's kitchen with Thermador and Bosch appliances</li>
+						<li>Large additional media room with wet bar</li>
+						<li>Spa-like bathrooms with heated flooring</li>
+						<li>High quality design finishes</li>
+						<li>2 car parking garage</li>
+						<li>Surrounded by parks, beaches, award winning schools, cafes, and shopping</li>
+					</ul>
+		</div>
+		<div class="footer">
+			<p>&copy Laura Walley 2016</p>
+		</div>
+	</body>
+</html>

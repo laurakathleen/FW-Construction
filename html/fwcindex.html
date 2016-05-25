@@ -1,0 +1,65 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>Frank Walley Construction | General Contractor</title>
+		<meta charset="utf-8">
+		<link type="text/css" rel="stylesheet" href="/Users/laurawalley/Desktop/Frank-Walley-Construction/css/fwcmain.css">
+		<link href='https://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
+		<script src="http://www.google.com/jsapi" type="text/javascript"></script>
+ 		<script type="text/javascript">google.load("jquery", "1.3.2");</script>
+		<script type="text/javascript">
+jQuery(".slideshow > img:gt(0)").hide();
+
+setInterval(function() {
+  jQuery('.slideshow > img:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('.slideshow');
+},  3000);
+
+
+jQuery(document).ready(function() {
+  jQuery(".content").hide();
+  //toggle the componenet with class msg_body
+  jQuery(".arrow").click(function()
+  {
+    jQuery(this).next(".content").slideToggle(500);
+  });
+});
+</script>
+</script>
+	</head>
+	<body id="index">
+		<header>
+		<div class="logo">
+			<img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/images/fwc-logo.png">
+		</div>
+		<nav>
+			<ul>
+				<li>Home</li>
+				<li><a href="/Users/laurawalley/Desktop/Frank-Walley-Construction/html/fwcprojects.html">Projects</a></li>
+				<li><a href="/Users/laurawalley/Desktop/Frank-Walley-Construction/html/fwccontact.html">Contact</a></li>
+			</ul>
+			<span></span>
+		</nav>
+		</header>
+		<div id="wrapper">
+			<div class="slideshow">
+				<img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/Images/Paris/paris-living-room-cropped.jpg">
+				<img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/images/33rd/33rd-ave-kitchen-cropped.jpg">
+				<img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/Images/la-grande/La-Grande-view-cropped.png">
+				<img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/Images/la-grande/La-Grande-Master-Bath-cropped.png">
+				<img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/Images/la-grande/La-Grande-Dining.png">	
+			</div>
+		</div>
+		<div class="layer">
+			<div class="arrow">^</div>
+			<div class="content"><p>Frank Walley Construction has been serving the greater San Francisco Bay Area for over 30 years.  With projects ranging from remodels and renovations to ground-up new construction, Frank Walley Construction has developed relationships with designers, architects, and engineers alike to ensure a stunning and sound masterpiece.</p></div>
+		</div>
+		<div class="footer" id="indexfooter">
+			<p>&copy Laura Walley 2016</p>
+		</div>
+	</body>
+</html>

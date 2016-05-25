@@ -1,0 +1,88 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>Frank Walley Construction | General Contractor</title>
+		<meta charset="utf-8">
+		<link type="text/css" rel="stylesheet" href="/Users/laurawalley/Desktop/Frank-Walley-Construction/css/fwcmain.css">
+		<link href='https://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
+		<script src="http://www.google.com/jsapi" type="text/javascript"></script>
+ 	<script type="text/javascript">google.load("jquery", "1.3.2");</script>
+		<script type="text/javascript">
+jQuery(document).ready(function() {
+jQuery(".fortyslideshow > img:gt(0)").hide();
+
+	jQuery("#next").click(function() {
+		jQuery(".fortyslideshow > img:first")
+			.fadeOut(1000)
+			.next()
+			.fadeIn(1000)
+			.end()
+			.appendTo(".fortyslideshow");
+});
+	jQuery("#previous").click(function() {
+		jQuery(".fortyslideshow > img:first")
+			.fadeOut();
+		jQuery(".fortyslideshow > img:last")
+			.prependTo(".fortyslideshow")
+			.fadeOut();
+		jQuery(".fortyslideshow > img:first")
+			.fadeIn();
+});
+});
+</script>
+	</head>
+	<body id="forty">
+		<header>
+		<div class=logo">
+			<a href="/Users/laurawalley/Desktop/Frank-Walley-Construction/html/fwcindex.html"><img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/images/fwc-logo.png"></a>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="/Users/laurawalley/Desktop/Frank-Walley-Construction/html/fwcindex.html">Home</a></li>
+				<li><a href="/Users/laurawalley/Desktop/Frank-Walley-Construction/html/fwcprojects.html">Projects</a></li>
+				<li><a href="/Users/laurawalley/Desktop/Frank-Walley-Construction/html/fwccontact.html">Contact</a></li>
+			</ul>
+		</nav>
+		</header>
+			<div id="fortywrapper">
+				<div class="fortyslideshow">
+					<img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/images/46th/46th-ave-ext.jpg">
+					<img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/images/46th/46th-kitchen.jpg">
+					<img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/images/46th/46th-living.jpg">
+					<img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/images/46th/46th-living2.jpg">
+					<img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/images/46th/46th-living3.jpg">
+					<img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/images/46th/46th-living4.jpg">
+					<img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/images/46th/46th-bed.jpg">
+					<img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/images/46th/46th-bed2.jpg">
+					<img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/images/46th/46th-bed3.jpg">
+					<img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/images/46th/46th-bath1.jpg">
+					<img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/images/46th/46th-bath2.jpg">
+					<img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/images/46th/46th-den.jpg">
+					<img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/images/46th/46th-porch.jpg">
+					<img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/images/46th/46th-wash.jpg">
+					<img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/images/46th/46th-garage.jpg">
+					<img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/images/46th/46th-backyard.jpg">
+					<img src="/Users/laurawalley/Desktop/Frank-Walley-Construction/images/46th/46th-backyard2.jpg">
+
+				</div>
+			</div>
+			<p class="arrows" id="previous"><</p>
+			<p class="arrows" id="next">></p>
+			<div class="fortyinfo">
+				<div class="headerinfo">
+					<h2>835 46th Ave</h2>
+					<h2>San Francisco, CA 94121</h2>
+				</div>
+					<ul>
+						<li>2013 renovated and remodeled</li>	
+						<li>3BD/2BA 1,600 sq. ft in the Outer Richmond neighborhood</li>
+						<li>Includes fireplace, built-ins, and gourmet chef's kitchen</li>
+						<li>Bright and airy living space with modern upgrades</li>
+						<li>Porch overlooks newly landscaped backyard</li>				
+					</ul>
+		</div>
+		<div class="footer">
+			<p>&copy Laura Walley 2016</p>
+		</div>
+	</body>
+</html>
